@@ -1,7 +1,7 @@
 class AppAssets {
   static const kBike = 'assets/bike.png';
-  // static const kWatch1 = 'assets/watch1.png';
-  // static const kWatch2 = 'assets/watch2.png';
+  static const kBike1 = 'assets/bike1.png';
+  static const kBike2 = 'assets/bike2.png';
   // static const kWatch3 = 'assets/watch3.png';
   // static const kWatch4 = 'assets/watch4.png';
   // static const kWatch5 = 'assets/watch5.png';
