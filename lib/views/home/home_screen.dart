@@ -151,11 +151,30 @@ class HomeScreen extends StatelessWidget {
                         children: [
                           Image.asset(AppAssets.kBike, height: 70.h),
                           Container(
+                            padding: EdgeInsets.symmetric(
+                                horizontal: 10.w, vertical: 6.h),
                             height: 50.h,
                             width: Get.width,
                             decoration: BoxDecoration(
                               color: AppColors.kWhiteColor,
-                              borderRadius: BorderRadius.circular(12.r),
+                              borderRadius: BorderRadius.circular(14.r),
+                            ),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Honda SP 125",
+                                  style: AppTypography.kBold10
+                                      .copyWith(color: AppColors.kBlackColor),
+                                ),
+                                Text(
+                                  "Rs 125,000",
+                                  style: AppTypography.kBold10.copyWith(
+                                    color:
+                                        AppColors.kGreyColor.withOpacity(0.5),
+                                  ),
+                                ),
+                              ],
                             ),
                           )
                         ],
